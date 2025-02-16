@@ -1,0 +1,72 @@
+@font-face{
+    font-family: Angst;
+    src: url(fonts/Angst-Thin.otf);
+}
+@font-face{
+    font-family: Carlo;
+    src: url(fonts/Carlo\ Melow.otf);
+}
+*{
+    box-sizing: border-box;
+    background-color: rgb(249, 201, 183); 
+}
+.zag{
+    display: flex;
+    justify-content: center;
+    font-family: Novelist;
+    font-size: 150px;
+    margin: 10px 0 30px 0;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 1);
+    align-items: flex-end;
+}
+.text1{
+    border: 1px rgb(255, 222, 210) solid;
+    border-radius: 20px;
+    background-color: rgb(255, 222, 210); 
+    margin: 0 30px 0 30px;
+    padding-bottom: 50px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+
+}
+.twogif{
+    margin-left: 30px;
+}
+.vecherom{
+    background-color: rgb(255, 222, 210); 
+    margin: 30px 30px 0 30px;
+    font-size: 30px;
+    font-family: Angst;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
+    padding: 20px 20px 0 20px;
+    line-height: 50px;
+    
+}
+.isee{
+    background-color: rgb(255, 222, 210); 
+    margin: 30px 30px 0 30px;
+    font-size: 30px;
+    font-family: Angst;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
+    padding: 20px 20px 0 20px;
+    line-height: 50px;
+}
+.knopka {
+    margin: 70px 500px 200px 500px;
+    padding: 20px 20px;
+    text-align: center;
+    font-family: Angst;
+    font-size: 30px;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
+    border: 1px rgb(255, 222, 210) solid;
+    border-radius: 10px;
+    background-color: rgb(255, 222, 210); 
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+}
+.knopka a{
+    background-color: rgb(255, 222, 210); 
+    color: black;
+    text-decoration: none;    
+}
+.knopka a:hover{
+    color: #f57b77;
+}
